@@ -1,0 +1,16 @@
+.footer-text {
+  text-align: center;
+  font-weight: bold;
+  font-family: "Google Sans Regular";
+  display: inline-block;
+  width: 100%;
+}
+
+.footer-div {
+  margin-top: 2rem;
+  align-items: center;
+  position: sticky;
+  bottom: 0;
+  z-index: 1;
+  box-shadow: 0 -0.5px 1px rgba(0, 0, 0, 0.1);
+}
