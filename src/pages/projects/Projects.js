@@ -1,7 +1,5 @@
 import React from "react";
 import { Fade } from "react-reveal";
-import { style } from "glamor";
-
 import ProjectCard from "../../components/ProjectCard/ProjectCard";
 import { projectsHeader, projects } from "../../portfolio.js";
 import ProjectsImg from "./ProjectsImg";
@@ -9,14 +7,6 @@ import "./Projects.css";
 
 function Projects(props) {
   const theme = props.theme;
-
-  const styles = style({
-    backgroundColor: `${theme.accentBright}`,
-    ":hover": {
-      boxShadow: `0 5px 15px ${theme.accentBright}`,
-    },
-  });
-
   return (
     <div className="projects-main" id="projects">
       <div className="basic-projects">

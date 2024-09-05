@@ -24,9 +24,9 @@ export default function Footer(props) {
           >
             <i className="fas fa-phone-alt">
               &nbsp;
-              <a style={{ fontFamily: "Google Sans Regular" }}>
+              <span style={{ fontFamily: "Google Sans Regular" }}>
                 {contactInfo.phone_num}
-              </a>
+              </span>
             </i>
           </a>
           <a
@@ -44,9 +44,9 @@ export default function Footer(props) {
           >
             <i className="fa fa-envelope">
               &nbsp;
-              <a style={{ fontFamily: "Google Sans Regular" }}>
+              <span style={{ fontFamily: "Google Sans Regular" }}>
                 {contactInfo.email_address}
-              </a>
+              </span>
             </i>
           </a>
         </p>
