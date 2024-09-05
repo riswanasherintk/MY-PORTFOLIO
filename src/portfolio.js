@@ -15,8 +15,7 @@ const greeting = {
   full_name: "Riswana Sharin T K",
   subTitle:
     "Senior Software Engineer | React & Next.js Specialist | JavaScript Frameworks Enthusiast.",
-  resumeLink:
-    "https://drive.google.com/file/d/1TViGk-LwduO5uUHFlbIfAcUUqnCaOe4Q/view?usp=sharing",
+  resumeLink: "https://drive.google.com/file/d/1CVhzF4mNATeEIdooybK8TlZ_VU7xYPV-/view?usp=drivesdk",
 };
 
 const socialMediaLinks = {
