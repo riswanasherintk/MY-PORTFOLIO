@@ -3,11 +3,11 @@
   "name": "personalPortfolio",
   "version": "1.0.0",
   "scripts": {
-    "build": "react-scripts build",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -b gh-pages -d build",
+    "build": "NODE_OPTIONS=--openssl-legacy-provider react-scripts build",
+    "predeploy": "NODE_OPTIONS=--openssl-legacy-provider npm run build",
+    "deploy": "NODE_OPTIONS=--openssl-legacy-provider gh-pages -b gh-pages -d build",
     "eject": "react-scripts eject",
-    "start": "react-scripts start",
+    "start": "NODE_OPTIONS=--openssl-legacy-provider react-scripts start",
     "test": "react-scripts test"
   },
   "dependencies": {
